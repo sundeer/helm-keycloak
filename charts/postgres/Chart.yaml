@@ -1,4 +1,0 @@
-apiVersion: v1
-description: Postgres database with persistent storage (master only)
-name: postgres
-version: 0.4.2
