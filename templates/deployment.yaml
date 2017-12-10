@@ -17,7 +17,7 @@ spec:
                 "name": "wait-for-postgres",
                 "image": "jwilder/dockerize:latest",
                 "imagePullPolicy": "IfNotPresent",
-                "command": ["dockerize", "-wait", "tcp://{{ template "postgres.fullname" . }}:5432", "-timeout", "30s"]
+                "command": ["dockerize", "-wait", "tcp://sqlproxy-gcloud-sqlproxy.sqlproxy:5432", "-timeout", "30s"]
             }
         ]'
     spec:
