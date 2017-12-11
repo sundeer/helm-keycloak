@@ -1,8 +1,6 @@
-# Password for the keycloak admin user (default: generated)
-#adminPassword:
-
-# Version of keycloak. See https://hub.docker.com/r/jboss/keycloak-postgres/tags/
-version: v1.0.0
+# Image and version of keycloak.
+image: sundeer/keycloak
+version: 1.1.0
 
 ingress:
   #Set to true to create an ingress
