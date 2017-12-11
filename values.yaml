@@ -1,6 +1,6 @@
 # Image and version of keycloak.
 image: sundeer/keycloak
-version: 1.1.0
+version: v1.1.0
 
 ingress:
   #Set to true to create an ingress
